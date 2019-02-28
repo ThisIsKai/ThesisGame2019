@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85b67519-d069-4a38-933b-f562fb8bb92e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BackboardScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackboardScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BallScript.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BallScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlMovementScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ControlMovementScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+              <folding>
+                <marker date="1524864107705" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524864107705" expanded="true" signature="130:2852" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="673:914" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="949:2031" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="1033:1484" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="1352:1457" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="1518:1996" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="1864:1969" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="2068:2425" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="2189:2409" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="2457:2832" ph="{...}" />
+                <marker date="1524864107705" expanded="true" signature="2584:2812" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CameraMovementScript.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AudioManager.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/BackboardScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControlMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallScript.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CameraMovementScript.cs" />
+        <option value="$PROJECT_DIR$/ControlMovementScript.cs" />
+        <option value="$PROJECT_DIR$/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/BallScript.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85b67519-d069-4a38-933b-f562fb8bb92e" name="Default" comment="" />
+      <created>1524856450239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524856450239</updated>
+      <workItem from="1524856452997" duration="3001000" />
+      <workItem from="1525300433736" duration="34000" />
+      <workItem from="1525300657368" duration="2729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5764000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="23" width="1400" height="877" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BackboardScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BallScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlMovementScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <marker date="1524864107705" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524864107705" expanded="true" signature="130:2852" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="673:914" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="949:2031" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1033:1484" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1352:1457" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1518:1996" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1864:1969" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2068:2425" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2189:2409" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2457:2832" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2584:2812" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackboardScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BallScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlMovementScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <marker date="1524864107705" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524864107705" expanded="true" signature="130:2852" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="673:914" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="949:2031" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1033:1484" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1352:1457" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1518:1996" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1864:1969" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2068:2425" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2189:2409" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2457:2832" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2584:2812" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackboardScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlMovementScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <marker date="1524864107705" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524864107705" expanded="true" signature="130:2852" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="673:914" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="949:2031" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1033:1484" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1352:1457" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1518:1996" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="1864:1969" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2068:2425" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2189:2409" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2457:2832" ph="{...}" />
+            <marker date="1524864107705" expanded="true" signature="2584:2812" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BallScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
