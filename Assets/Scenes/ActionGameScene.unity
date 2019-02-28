@@ -1330,7 +1330,7 @@ GameObject:
   - component: {fileID: 91519254}
   - component: {fileID: 91519253}
   - component: {fileID: 91519252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightSpacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,7 +1541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 123380491}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftControlSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9448,7 +9448,7 @@ GameObject:
   - component: {fileID: 527186625}
   - component: {fileID: 527186624}
   - component: {fileID: 527186623}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftSpacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9986,7 +9986,7 @@ GameObject:
   - component: {fileID: 567732137}
   - component: {fileID: 567732136}
   - component: {fileID: 567732135}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftSpacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10186,7 +10186,7 @@ GameObject:
   - component: {fileID: 582709850}
   - component: {fileID: 582709849}
   - component: {fileID: 582709848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightBarBalance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10723,6 +10723,10 @@ PrefabInstance:
     - target: {fileID: 1024402442169244, guid: f31b8c47b619949dd89987f45f980855, type: 3}
       propertyPath: m_Name
       value: NotBouncyBallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024402442169244, guid: f31b8c47b619949dd89987f45f980855, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4314619668429226, guid: f31b8c47b619949dd89987f45f980855, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15379,7 +15383,9 @@ GameObject:
   - component: {fileID: 874115087}
   - component: {fileID: 874115086}
   - component: {fileID: 874115085}
-  m_Layer: 0
+  - component: {fileID: 874115090}
+  - component: {fileID: 874115089}
+  m_Layer: 11
   m_Name: LeftBarbell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15458,6 +15464,45 @@ Transform:
   m_Father: {fileID: 2079466497}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!145 &874115089
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874115084}
+  m_ConnectedBody: {fileID: 324188832}
+  m_Anchor: {x: 0, y: 0.49999827, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -14.147004, y: 0.6869974, z: 1.5000163}
+  serializedVersion: 2
+  m_Spring: 10
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!54 &874115090
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874115084}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &883283966
 GameObject:
   m_ObjectHideFlags: 0
@@ -18176,7 +18221,9 @@ GameObject:
   - component: {fileID: 1018579419}
   - component: {fileID: 1018579418}
   - component: {fileID: 1018579417}
-  m_Layer: 0
+  - component: {fileID: 1018579422}
+  - component: {fileID: 1018579421}
+  m_Layer: 11
   m_Name: RightBarbell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18255,6 +18302,45 @@ Transform:
   m_Father: {fileID: 2079466497}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!145 &1018579421
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018579416}
+  m_ConnectedBody: {fileID: 1693587497}
+  m_Anchor: {x: 0, y: 0.5000002, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 14.193012, y: 0.6870012, z: 1.4999806}
+  serializedVersion: 2
+  m_Spring: 10
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!54 &1018579422
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018579416}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1026354803
 GameObject:
   m_ObjectHideFlags: 0
@@ -18819,7 +18905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1043012196}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightControlSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20505,7 +20591,7 @@ GameObject:
   m_TagString: ScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 0
 --- !u!102 &1133492914
 TextMesh:
@@ -21869,7 +21955,7 @@ GameObject:
   - component: {fileID: 1175190708}
   - component: {fileID: 1175190707}
   - component: {fileID: 1175190706}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightSpacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26833,7 +26919,7 @@ GameObject:
   - component: {fileID: 1461541676}
   - component: {fileID: 1461541675}
   - component: {fileID: 1461541674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftBarBalance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33139,7 +33225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1916362994}
   - component: {fileID: 1916362993}
-  - component: {fileID: 1916362992}
   - component: {fileID: 1916362991}
   - component: {fileID: 1916362990}
   - component: {fileID: 1916362988}
@@ -33179,14 +33264,6 @@ AudioListener:
   m_GameObject: {fileID: 1916362987}
   m_Enabled: 1
 --- !u!124 &1916362991
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916362987}
-  m_Enabled: 1
---- !u!92 &1916362992
 Behaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33264,11 +33341,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5778e5e62bdc02248ba9cfd83c52e3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VignetteFalloff: 2.8
+  VignetteFalloff: 1
   VignetteOuterValue: 1
-  VignetteInnerValue: 0.32743362
+  VignetteInnerValue: 0
   VignetteInnerValueDistance: 0
-  VignetteOuterValueDistance: 0.29292032
+  VignetteOuterValueDistance: 0.43451327
   VignetteMode: 1
   VignetteCenter: {x: 0.5, y: 0.5}
   VignetteInnerColor: {r: 0, g: 0, b: 0, a: 0}
@@ -33276,7 +33353,7 @@ MonoBehaviour:
   VignetteInnerSaturation: 1
   VignetteOuterSaturation: 0
   VignetteDebugEnabled: 0
-  IsAnamorphicVignette: 1
+  IsAnamorphicVignette: 0
   EnableSaturationVignette: 0
   IntegrationType: 2
   IntegrationStage: 1

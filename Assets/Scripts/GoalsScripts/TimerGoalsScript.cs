@@ -69,7 +69,7 @@ public class TimerGoalsScript : MonoBehaviour { // A SCRIPT ATTACHED TO THE GOAL
 		goalColor.material.SetColor("Color", (Color.Lerp(Color.cyan,Color.black, lerp)));		//set the main color
 
 		goalColor.material.shader = Shader.Find("_Specular"); 									//get the specular shader
-		goalColor.material.SetColor("SpecColor",(Color.Lerp(Color.clear,Color.cyan, lerp)));	//set the specular shader
+		goalColor.material.SetColor("SpecColor",(Color.Lerp(Color.clear,Color.black, lerp)));	//set the specular shader
 
 		goalColor.material.shader = Shader.Find(" _EmissionColor"); 							//get emissive shader
 		goalColor.material.SetColor("EmissColor", (Color.Lerp(Color.clear,Color.cyan, lerp)));	//set the emissive shader
