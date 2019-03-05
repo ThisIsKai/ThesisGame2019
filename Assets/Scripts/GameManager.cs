@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
 	public Camera boardCamera;
 
 
-	public float controlMidPointY;
+//	public float controlMidPointY;
 
 	public TextMesh cubesLeftText;
 

@@ -15,6 +15,7 @@ TagManager:
   - Bar
   - ScoreText
   - SecondCamScoreboard
+  - SecondCam
   layers:
   - Default
   - TransparentFX

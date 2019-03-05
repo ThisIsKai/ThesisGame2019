@@ -22,8 +22,9 @@ public class MainCameraScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		//Vector3 cam_pos = mainCamera.transform.position; 
-		controlMidPointY = (((leftControl.transform.position.y)+(rightControl.transform.position.y))/2);		//averaging the y-transforms of the controllers
+        //Vector3 cam_pos = mainCamera.transform.position; 
+     //   controlMidPointY = (((leftControl.transform.position.y)+(rightControl.transform.position.y))/2);        //averaging the y-transforms of the controllers
+        controlMidPointY = (((leftControl.transform.position.y) + (ballObject.transform.position.y) + (rightControl.transform.position.y)) / 3); ;
 		mainCamera.transform.position = new Vector3(camPosLockX, controlMidPointY, camPosLockZ);
 
 
