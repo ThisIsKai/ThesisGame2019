@@ -26,10 +26,14 @@ public class ControlMovementScript : MonoBehaviour
 
 
 	void FixedUpdate () {															// FixedUpdate is called once per physics tick/frame
-		if (isRight) {																// is this the right control?
-			if (Input.GetKey (KeyCode.O))													// make 'O' the up key for right control
+		if (Input.anyKey)
+        { 
+        rb.isKinematic = true;
+
+        if (isRight) {																// is this the right control?
+			if (Input.GetKey (KeyCode.O))											// make 'O' the up key for right control
 				MoveUp (); 															// call move up
-			else if (Input.GetKey (KeyCode.L)) 											// make 'L' the down key for right control
+			else if (Input.GetKey (KeyCode.L)) 										// make 'L' the down key for right control
 				MoveDown (); 														// call move down
 			else {																	// else
 				rb.velocity = Vector3.zero; 										// otherwise don't move
@@ -37,20 +41,23 @@ public class ControlMovementScript : MonoBehaviour
 		} // end right side control scheme
 
 		else { 																		// if it's not right control (making it left)
-			if (Input.GetKey (KeyCode.Q)) 												// make 'Q' the up key for the left control
+			if (Input.GetKey (KeyCode.Q)) 											// make 'Q' the up key for the left control
 				MoveUp ();															// call move up
-			else if (Input.GetKey (KeyCode.A))											// make 'A' the down key for left control
+			else if (Input.GetKey (KeyCode.A))										// make 'A' the down key for left control
 				MoveDown (); 														// call move down
 			else {																	// else
 				rb.velocity = Vector3.zero;											// otherwise don't move
 			} // end else not moving
 		} // end left side control scheme
-	} // END FIXED UPDATE
+        }
+        else { rb.isKinematic = false; }
+    } // END FIXED UPDATE
 
 	void MoveUp() { 																// MoveUp function, to move control up, effected by 'speed'
 		if (rb.transform.position.y <= topLimit) {
-			rb.velocity += new Vector3(0, speed, 0); // simplified upwards movement
-			rb.MovePosition(transform.position + new Vector3(0, speed, 0));
+            Vector3 movementForce = new Vector3(0, speed, 0);
+            rb.AddForce(movementForce, ForceMode.Force); //toggle kinematic
+
 			//Debug.Log("moving up");
 			//Debug.Log(rb.velocity + "is up velocity");
 		}//if in range
@@ -58,11 +65,13 @@ public class ControlMovementScript : MonoBehaviour
 
 	void MoveDown() {																// MoveDown function, to move control down, effected by 'speed'
 		if (rb.transform.position.y >= bottomLimit) {
-			rb.velocity += new Vector3(0, -speed, 0); // simplified downwards momvement
-			rb.MovePosition(transform.position - new Vector3(0, speed, 0));
-			//Debug.Log("moving down");
-			//Debug.Log(rb.velocity + "is down velocity");
-		}//end if in range
+            Vector3 movementForce = new Vector3(0, -speed, 0);
+            rb.AddForce(movementForce, ForceMode.Force);
+            //rb.velocity += new Vector3(0, -speed, 0); // simplified downwards momvement
+            //rb.MovePosition(transform.position - new Vector3(0, speed, 0));
+            //Debug.Log("moving down");
+            //Debug.Log(rb.velocity + "is down velocity");
+        }//end if in range
 	}//END MOVE DOWN
 		
 }//END SCRIPT
