@@ -25,32 +25,44 @@ public class ControlMovementScript : MonoBehaviour
 	}//END START
 
 
-	void FixedUpdate () {															// FixedUpdate is called once per physics tick/frame
-		if (Input.anyKey)
-        { 
-        rb.isKinematic = true;
+	void FixedUpdate () 
+    {                                                           // FixedUpdate is called once per physics tick/frame
+                                                                //rb.isKinematic = false;
 
-        if (isRight) {																// is this the right control?
-			if (Input.GetKey (KeyCode.O))											// make 'O' the up key for right control
-				MoveUp (); 															// call move up
-			else if (Input.GetKey (KeyCode.L)) 										// make 'L' the down key for right control
-				MoveDown (); 														// call move down
-			else {																	// else
-				rb.velocity = Vector3.zero; 										// otherwise don't move
-			} // end else not moving
-		} // end right side control scheme
+        if (isRight)
+        {
+            if (Input.GetKey(KeyCode.O) || Input.GetKey(KeyCode.L))
+            {
+                rb.isKinematic = false;                                                             // is this the right control?
+                if (Input.GetKey(KeyCode.O))                                            // make 'O' the up key for right control
+                    MoveUp();                                                           // call move up
+                else if (Input.GetKey(KeyCode.L))                                       // make 'L' the down key for right control
+                    MoveDown();
+            }
+            else
+                rb.isKinematic = true;                                                      // call move down
+                                                                                            //else {																	// else
+                                                                                            //	rb.velocity = Vector3.zero; 										// otherwise don't move
+                                                                                            //} // end else not moving
+        } // end right side control scheme
 
-		else { 																		// if it's not right control (making it left)
-			if (Input.GetKey (KeyCode.Q)) 											// make 'Q' the up key for the left control
-				MoveUp ();															// call move up
-			else if (Input.GetKey (KeyCode.A))										// make 'A' the down key for left control
-				MoveDown (); 														// call move down
-			else {																	// else
-				rb.velocity = Vector3.zero;											// otherwise don't move
-			} // end else not moving
-		} // end left side control scheme
+        else
+        {
+            if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.A))
+            {
+                rb.isKinematic = false;                                                         // if it's not right control (making it left)
+                if (Input.GetKey(KeyCode.Q))                                            // make 'Q' the up key for the left control
+                    MoveUp();                                                           // call move up
+                else if (Input.GetKey(KeyCode.A))                                       // make 'A' the down key for left control
+                    MoveDown();                                                         // call move down
+                                                                                        //else {																	// else
+                                                                                        //	rb.velocity = Vector3.zero;											// otherwise don't move
+                                                                                        //} // end else not moving
+            } // end left side control scheme
+            else
+                rb.isKinematic = true;
         }
-        else { rb.isKinematic = false; }
+        //else { rb.isKinematic = true; }
     } // END FIXED UPDATE
 
 	void MoveUp() { 																// MoveUp function, to move control up, effected by 'speed'
