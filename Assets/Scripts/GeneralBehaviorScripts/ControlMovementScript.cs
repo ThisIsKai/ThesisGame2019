@@ -11,7 +11,10 @@ public class ControlMovementScript : MonoBehaviour
 	bool isRight;																	// is it the Right Control
 
 	[SerializeField] 																// makes it editable in the inspector
-	float speed = 0.2f;      	 													// paddle speed
+	float up_Speed = 0.2f;
+
+    [SerializeField]                                                                // makes it editable in the inspector                                                                          // control speed
+    float down_Speed = 0.2f;
 
 	Transform myTransform;															// reference to the object's transform
 	int direction = 0; 																// 0 = not moving, 1= up, -1 = down
@@ -67,7 +70,7 @@ public class ControlMovementScript : MonoBehaviour
 
 	void MoveUp() { 																// MoveUp function, to move control up, effected by 'speed'
 		if (rb.transform.position.y <= topLimit) {
-            Vector3 movementForce = new Vector3(0, speed, 0);
+            Vector3 movementForce = new Vector3(0, up_Speed, 0);
             rb.AddForce(movementForce, ForceMode.Force); //toggle kinematic
 
 			//Debug.Log("moving up");
@@ -77,7 +80,7 @@ public class ControlMovementScript : MonoBehaviour
 
 	void MoveDown() {																// MoveDown function, to move control down, effected by 'speed'
 		if (rb.transform.position.y >= bottomLimit) {
-            Vector3 movementForce = new Vector3(0, -speed, 0);
+            Vector3 movementForce = new Vector3(0, -down_Speed, 0);
             rb.AddForce(movementForce, ForceMode.Force);
             //rb.velocity += new Vector3(0, -speed, 0); // simplified downwards momvement
             //rb.MovePosition(transform.position - new Vector3(0, speed, 0));
